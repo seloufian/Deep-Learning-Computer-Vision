@@ -24,13 +24,13 @@ Assignments are the funniest part of the courses, they allow practicing most of 
 
 Assignment questions are in form of Jupyter notebooks that call external Python files in order to execute properly. That is, you will mostly implement missing parts in the Python files and execute notebook's cells to check the correctness of your implementation. However, you'll write also some code in the notebooks and respond to inline questions (result analysis and theoretical questions).
 
-For my implementation, I solved all from the three CS231n assignments, for the questions that use frameworks, they ask to pick only one, and for that I choosed PyTorch. That is, questions that require framework were implemented with PyTorch (and not with TensorFlow). For EECS 498-007, since its assignments are similar to the CS231n ones, I solved only those who bring new concepts, precisely A5 (Object detection: YOLO and Faster RCNN) and A6 (partially, the 1st question about VAEs). For EECS 498-007, there is no choice, only PyTorch is used (which fits perfectly with my choice of using it also in CS231n).
+For my implementation, I solved all from the three CS231n assignments, for the questions that use frameworks, they ask to pick only one, and for that I choosed PyTorch. That is, questions that require framework were implemented with PyTorch (and not with TensorFlow). For EECS 498-007, since its assignments are similar to the CS231n ones, I solved only those who bring new concepts, precisely A4 (partially, the first two questions about Residual Networks and Attention LSTM), A5 (Object detection: YOLO and Faster RCNN) and A6 (partially, the 1st question about VAEs). For EECS 498-007, there is no choice, only PyTorch is used (which fits perfectly with my choice of using it also in CS231n).
 
 Note that, even that my coding solutions are probably correct, the CS231n assignments contain inline questions for which I'm not sure about their correctness, I just responded as well as I know. Also, Except for the CS231n first assignment (which is less commented), for the remaining assignments, I tried to comment on my code as richly as I can to make it understandable.
 
 ### Repository Structure
 
-The repository file's structure is quite intuitive, there are two folders (one for each course), each one with its sub-folders that represent the assignments (three for CS231n and two for EECS 498-007). Note that for each assignment's folder, I put a README which shows covered topics and question descriptions (copied from the assignment's website).
+The repository file's structure is quite intuitive, there are two folders (one for each course), each one with its sub-folders that represent the assignments (three for both, CS231n and EECS 498-007). Note that for each assignment's folder, I put a README which shows covered topics and question descriptions (copied from the assignment's website).
 
 In the rest of this README, I will present a [quick access to the assignments files](#assignment-files), [useful links](#useful-links), some [obtained results](#result-examples) and [credits](#credits).
 
@@ -85,6 +85,17 @@ The table below shows relevant links to both courses' materials.
 |    Q5    |   Generative Adversarial Networks  | [``Generative_Adversarial_Networks_PyTorch.ipynb``](cs231n/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb) |
 
 ### EECS 498-007 / 598-005: Deep Learning for Computer Vision
+
+#### Assignment 4
+
+**Modified Python files:** [``pytorch_autograd_and_nn.py``](eecs498-007/A4/pytorch_autograd_and_nn.py), [``rnn_lstm_attention_captioning.py``](eecs498-007/A4/rnn_lstm_attention_captioning.py), [``network_visualization.py``](eecs498-007/A4/network_visualization.py), [``style_transfer.py``](eecs498-007/A4/style_transfer.py).
+
+| Question |                      Title                      |                                        IPython Notebook                                       |
+|:--------:|:-----------------------------------------------:|:---------------------------------------------------------------------------------------------:|
+|    Q1    |                 PyTorch Autograd                |       [``pytorch_autograd_and_nn.ipynb``](eecs498-007/A4/pytorch_autograd_and_nn.ipynb)       |
+|    Q2    | Image Captioning with Recurrent Neural Networks | [``rnn_lstm_attention_captioning.ipynb``](eecs498-007/A4/rnn_lstm_attention_captioning.ipynb) |
+|    Q3    |              Network Visualization              |         [``network_visualization.ipynb``](eecs498-007/A4/network_visualization.ipynb)         |
+|    Q4    |                  Style Transfer                 |                [``style_transfer.ipynb``](eecs498-007/A4/style_transfer.ipynb)                |
 
 #### Assignment 5
 
