@@ -50,94 +50,88 @@ The table below shows relevant links to both courses' materials.
 
 #### Assignment 1
 
-**Modified Python files:** [``k_nearest_neighbor.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/cs231n/classifiers/k_nearest_neighbor.py), [``linear_classifier.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/cs231n/classifiers/linear_classifier.py), [``linear_svm.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/cs231n/classifiers/linear_svm.py), [``softmax.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/cs231n/classifiers/softmax.py), [``neural_net.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/cs231n/classifiers/neural_net.py).
+**Modified Python files:** [``k_nearest_neighbor.py``](cs231n/assignment1/cs231n/classifiers/k_nearest_neighbor.py), [``linear_classifier.py``](cs231n/assignment1/cs231n/classifiers/linear_classifier.py), [``linear_svm.py``](cs231n/assignment1/cs231n/classifiers/linear_svm.py), [``softmax.py``](cs231n/assignment1/cs231n/classifiers/softmax.py), [``neural_net.py``](cs231n/assignment1/cs231n/classifiers/neural_net.py).
 
-| Question |                     Title                    | IPython Notebook                                           |
-|:--------:|:--------------------------------------------:|:----------------------------------------------------------:|
-|   Q1     |         k-Nearest Neighbor classifier        | [``knn.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/knn.ipynb) |
-|   Q2     |       Training a Support Vector Machine      | [``svm.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/svm.ipynb) |
-|   Q3     |        Implement a Softmax classifier        | [``softmax.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/softmax.ipynb) |
-|   Q4     |           Two-Layer Neural Network           | [``two_layer_net.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/two_layer_net.ipynb) |
-|   Q5     | Higher Level Representations: Image Features | [``features.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment1/features.ipynb) |
+| Question |                     Title                    |                          IPython Notebook                         |
+|:--------:|:--------------------------------------------:|:-----------------------------------------------------------------:|
+|    Q1    |         k-Nearest Neighbor classifier        |           [``knn.ipynb``](cs231n/assignment1/knn.ipynb)           |
+|    Q2    |       Training a Support Vector Machine      |           [``svm.ipynb``](cs231n/assignment1/svm.ipynb)           |
+|    Q3    |        Implement a Softmax classifier        |       [``softmax.ipynb``](cs231n/assignment1/softmax.ipynb)       |
+|    Q4    |           Two-Layer Neural Network           | [``two_layer_net.ipynb``](cs231n/assignment1/two_layer_net.ipynb) |
+|    Q5    | Higher Level Representations: Image Features |      [``features.ipynb``](cs231n/assignment1/features.ipynb)      |
 
 #### Assignment 2
 
-**Modified Python files:** [``layers.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/cs231n/layers.py), [``optim.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/cs231n/optim.py), [``fc_net.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/cs231n/classifiers/fc_net.py), [``cnn.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/cs231n/classifiers/cnn.py).
+**Modified Python files:** [``layers.py``](cs231n/assignment2/cs231n/layers.py), [``optim.py``](cs231n/assignment2/cs231n/optim.py), [``fc_net.py``](cs231n/assignment2/cs231n/classifiers/fc_net.py), [``cnn.py``](cs231n/assignment2/cs231n/classifiers/cnn.py).
 
-| Question |               Title              | IPython Notebook                                                           |
-|:--------:|:--------------------------------:|:--------------------------------------------------------------------------:|
-|   Q1     |  Fully-connected Neural Network  | [``FullyConnectedNets.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/FullyConnectedNets.ipynb) |
-|   Q2     |        Batch Normalization       | [``BatchNormalization.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/BatchNormalization.ipynb) |
-|   Q3     |              Dropout             | [``Dropout.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/Dropout.ipynb) |
-|   Q4     |      Convolutional Networks      | [``ConvolutionalNetworks.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/ConvolutionalNetworks.ipynb) |
-|   Q5     | PyTorch / TensorFlow on CIFAR-10 | [``PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment2/PyTorch.ipynb) |
+| Question |               Title              |                                  IPython Notebook                                 |
+|:--------:|:--------------------------------:|:---------------------------------------------------------------------------------:|
+|    Q1    |  Fully-connected Neural Network  |    [``FullyConnectedNets.ipynb``](cs231n/assignment2/FullyConnectedNets.ipynb)    |
+|    Q2    |        Batch Normalization       |    [``BatchNormalization.ipynb``](cs231n/assignment2/BatchNormalization.ipynb)    |
+|    Q3    |              Dropout             |               [``Dropout.ipynb``](cs231n/assignment2/Dropout.ipynb)               |
+|    Q4    |      Convolutional Networks      | [``ConvolutionalNetworks.ipynb``](cs231n/assignment2/ConvolutionalNetworks.ipynb) |
+|    Q5    | PyTorch / TensorFlow on CIFAR-10 |               [``PyTorch.ipynb``](cs231n/assignment2/PyTorch.ipynb)               |
 
 #### Assignment 3
 
-**Modified Python files:** [``rnn_layers.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/cs231n/rnn_layers.py), [``rnn.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/cs231n/classifiers/rnn.py), [``net_visualization_pytorch.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/cs231n/net_visualization_pytorch.py), [``style_transfer_pytorch.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/cs231n/style_transfer_pytorch.py), [``gan_pytorch.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/cs231n/gan_pytorch.py).
+**Modified Python files:** [``rnn_layers.py``](cs231n/assignment3/cs231n/rnn_layers.py), [``rnn.py``](cs231n/assignment3/cs231n/classifiers/rnn.py), [``net_visualization_pytorch.py``](cs231n/assignment3/cs231n/net_visualization_pytorch.py), [``style_transfer_pytorch.py``](cs231n/assignment3/cs231n/style_transfer_pytorch.py), [``gan_pytorch.py``](cs231n/assignment3/cs231n/gan_pytorch.py).
 
-| Question |                                     Title                                     | IPython Notebook                                               |
-|:--------:|:-----------------------------------------------------------------------------:|:--------------------------------------------------------------:|
-|   Q1     |                       Image Captioning with Vanilla RNNs                      | [``RNN_Captioning.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/RNN_Captioning.ipynb) |
-|   Q2     |                          Image Captioning with LSTMs                          | [``LSTM_Captioning.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/LSTM_Captioning.ipynb) |
-|   Q3     | Network Visualization: Saliency maps, Class Visualization, and Fooling Images | [``NetworkVisualization-PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/NetworkVisualization-PyTorch.ipynb) |
-|   Q4     |                                 Style Transfer                                | [``StyleTransfer-PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/StyleTransfer-PyTorch.ipynb) |
-|   Q5     |                        Generative Adversarial Networks                        | [``Generative_Adversarial_Networks_PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb) |
+| Question |                Title               |                                                    IPython Notebook                                                   |
+|:--------:|:----------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
+|    Q1    | Image Captioning with Vanilla RNNs |                          [``RNN_Captioning.ipynb``](cs231n/assignment3/RNN_Captioning.ipynb)                          |
+|    Q2    |     Image Captioning with LSTMs    |                         [``LSTM_Captioning.ipynb``](cs231n/assignment3/LSTM_Captioning.ipynb)                         |
+|    Q3    |        Network Visualization       |            [``NetworkVisualization-PyTorch.ipynb``](cs231n/assignment3/NetworkVisualization-PyTorch.ipynb)            |
+|    Q4    |           Style Transfer           |                   [``StyleTransfer-PyTorch.ipynb``](cs231n/assignment3/StyleTransfer-PyTorch.ipynb)                   |
+|    Q5    |   Generative Adversarial Networks  | [``Generative_Adversarial_Networks_PyTorch.ipynb``](cs231n/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb) |
 
 ### EECS 498-007 / 598-005: Deep Learning for Computer Vision
 
 #### Assignment 5
 
-**Modified Python files:** [``single_stage_detector.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A5/single_stage_detector.py), [``two_stage_detector.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A5/two_stage_detector.py).
+**Modified Python files:** [``single_stage_detector.py``](eecs498-007/A5/single_stage_detector.py), [``two_stage_detector.py``](eecs498-007/A5/two_stage_detector.py).
 
-| Question |         Title         | IPython Notebook                                                                             |
-|:--------:|:---------------------:|:--------------------------------------------------------------------------------------------:|
-|   Q1     | Single-Stage Detector | [``single_stage_detector_yolo.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A5/single_stage_detector_yolo.ipynb) |
-|   Q2     |   Two-Stage Detector  | [``two_stage_detector_faster_rcnn.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A5/two_stage_detector_faster_rcnn.ipynb) |
+| Question |         Title         |                                         IPython Notebook                                        |
+|:--------:|:---------------------:|:-----------------------------------------------------------------------------------------------:|
+|    Q1    | Single-Stage Detector |     [``single_stage_detector_yolo.ipynb``](eecs498-007/A5/single_stage_detector_yolo.ipynb)     |
+|    Q2    |   Two-Stage Detector  | [``two_stage_detector_faster_rcnn.ipynb``](eecs498-007/A5/two_stage_detector_faster_rcnn.ipynb) |
 
 #### Assignment 6
 
-**Modified Python files:** [``vae.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A6/vae.py), [``gan.py``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A6/gan.py).
+**Modified Python files:** [``vae.py``](eecs498-007/A6/vae.py), [``gan.py``](eecs498-007/A6/gan.py).
 
-| Question |              Title              | IPython Notebook                                                                               |
-|:--------:|:-------------------------------:|:----------------------------------------------------------------------------------------------:|
-|   Q1     |     Variational Autoencoder     | [``variational_autoencoders.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A6/variational_autoencoders.ipynb) |
-|   Q2     | Generative Adversarial Networks | [``generative_adversarial_networks.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/eecs498-007/A6/generative_adversarial_networks.ipynb) |
+| Question |              Title              |                                          IPython Notebook                                         |
+|:--------:|:-------------------------------:|:-------------------------------------------------------------------------------------------------:|
+|    Q1    |     Variational Autoencoder     |        [``variational_autoencoders.ipynb``](eecs498-007/A6/variational_autoencoders.ipynb)        |
+|    Q2    | Generative Adversarial Networks | [``generative_adversarial_networks.ipynb``](eecs498-007/A6/generative_adversarial_networks.ipynb) |
 
 ## Useful Links
 
 The list below provides the most useful external resources that helped me to clarify and understand deeply some ambiguous topics encountered in the lectures. Note that those are only the most important ones, that is, completely understanding them will maybe require checking other -not mentioned- resources.
 
 - Convolutional Neural Networks (CNNs).
-
   - CNNs implementation from scratch in Python [[Part 1]](https://victorzhou.com/blog/intro-to-cnns-part-1/) [[Part 2]](https://victorzhou.com/blog/intro-to-cnns-part-2/).
   - [A guide to receptive field arithmetic for CNNs](https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807).
 
 - Normalization layers.
-
   - [Understanding the backward pass through Batch Normalization Layer](https://kratzert.github.io/2016/02/12/understanding-the-gradient-flow-through-the-batch-normalization-layer.html) (Staged computation method).
   - [Deriving the Gradient for the Backward Pass of Batch Normalization](https://kevinzakka.github.io/2016/09/14/batch_normalization/) (Gradient derivation method).
   - [Group Normalization - The paper](https://arxiv.org/abs/1803.08494) (Concept and implementation well explained).
 
 - Principal Component Analysis (PCA).
-
   - [Principal Component Analysis (PCA) from Scratch](https://drscotthawley.github.io/blog/2019/12/21/PCA-From-Scratch.html) (Covariance matrix method).
   - StatQuest: PCA (SVD Decomposition method) [[Part 1]](https://youtu.be/FgakZw6K1QQ) [[Part 2]](https://youtu.be/oRvgq966yZg).
   - [In Depth: Principal Component Analysis](https://jakevdp.github.io/PythonDataScienceHandbook/05.09-principal-component-analysis.html) (Using Sklearn package).
 
 - Object Detection.
-
   - [mAP (mean Average Precision) for Object Detection](https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173).
   - Object Detection for Dummies [[Part 1]](https://lilianweng.github.io/lil-log/2017/10/29/object-recognition-for-dummies-part-1.html) [[Part 2]](https://lilianweng.github.io/lil-log/2017/12/15/object-recognition-for-dummies-part-2.html) [[Part 3]](https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html) [[Part 4]](https://lilianweng.github.io/lil-log/2018/12/27/object-detection-part-4.html).
 
 - Variational Autoencoders (VAEs).
-
   - [Kullback-Leibler (KL) Divergence Explained](https://www.countbayesie.com/blog/2017/5/9/kullback-leibler-divergence-explained).
   - [Variational autoencoders](https://www.jeremyjordan.me/variational-autoencoders/).
   - [Variational Autoencoder Demystified With PyTorch Implementation](https://towardsdatascience.com/variational-autoencoder-demystified-with-pytorch-implementation-3a06bee395ed).
 
 - Generative Adversarial Networks (GANs).
-
   - [GANs from Scratch: A deep introduction, with code in PyTorch](https://medium.com/ai-society/gans-from-scratch-1-a-deep-introduction-with-code-in-pytorch-and-tensorflow-cb03cdcdba0f).
   - [GAN objective function origin explanation](https://ai.stackexchange.com/a/13038).
   - [Google DeepMind: Generative Adversarial Networks](https://youtu.be/wFsI2WqUfdA).

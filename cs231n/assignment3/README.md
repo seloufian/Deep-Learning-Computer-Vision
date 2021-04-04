@@ -20,20 +20,20 @@ The goals of this assignment are as follows:
 
 ## Q1: Image Captioning with Vanilla RNNs
 
-The notebook [``RNN_Captioning.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/RNN_Captioning.ipynb) will walk you through the implementation of an image captioning system on MS-COCO using vanilla recurrent networks.
+The notebook [``RNN_Captioning.ipynb``](RNN_Captioning.ipynb) will walk you through the implementation of an image captioning system on MS-COCO using vanilla recurrent networks.
 
 ## Q2: Image Captioning with LSTMs
 
-The notebook [``LSTM_Captioning.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/LSTM_Captioning.ipynb) will walk you through the implementation of Long-Short Term Memory (LSTM) RNNs, and apply them to image captioning on MS-COCO.
+The notebook [``LSTM_Captioning.ipynb``](LSTM_Captioning.ipynb) will walk you through the implementation of Long-Short Term Memory (LSTM) RNNs, and apply them to image captioning on MS-COCO.
 
 ## Q3: Network Visualization: Saliency maps, Class Visualization, and Fooling Images
 
-The notebook [``NetworkVisualization-PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/NetworkVisualization-PyTorch.ipynb) will introduce the pretrained SqueezeNet model, compute gradients with respect to images, and use them to produce saliency maps and fooling images.
+The notebook [``NetworkVisualization-PyTorch.ipynb``](NetworkVisualization-PyTorch.ipynb) will introduce the pretrained SqueezeNet model, compute gradients with respect to images, and use them to produce saliency maps and fooling images.
 
 ## Q4: Style Transfer
 
-In the notebook [``StyleTransfer-PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/StyleTransfer-PyTorch.ipynb) you will learn how to create images with the content of one image but the style of another.
+In the notebook [``StyleTransfer-PyTorch.ipynb``](StyleTransfer-PyTorch.ipynb) you will learn how to create images with the content of one image but the style of another.
 
 ## Q5: Generative Adversarial Networks
 
-In the notebook [``Generative_Adversarial_Networks_PyTorch.ipynb``](https://github.com/seloufian/Deep-Learning-Computer-Vision/blob/master/cs231n/assignment3/Generative_Adversarial_Networks_PyTorch.ipynb) you will learn how to generate images that match a training dataset, and use these models to improve classifier performance when training on a large amount of unlabeled data and a small amount of labeled data.
+In the notebook [``Generative_Adversarial_Networks_PyTorch.ipynb``](Generative_Adversarial_Networks_PyTorch.ipynb) you will learn how to generate images that match a training dataset, and use these models to improve classifier performance when training on a large amount of unlabeled data and a small amount of labeled data.
